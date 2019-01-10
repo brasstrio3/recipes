@@ -1,0 +1,17 @@
+To get project first time:
+git clone git@gitlab.com:rlinares240/389FitnessApp.git
+
+
+To get current project:
+git pull origin master
+
+to Add current work:
+git add (*folderName*)
+git commit -m "description of what was done"
+git push -u origin master
+
+Another way to Add
+git add .
+git status
+git commit -m “descript”
+git push
