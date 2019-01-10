@@ -1,0 +1,26 @@
+//Set up our Database
+//**Start MySQL Server
+
+//—————————————————————————users
+
+cd /Applications/XAMPP/xamppfiles/bin
+./mysql -u root -p
+create database groupApplication;
+use groupApplication;
+
+//Start users table
+create table users(name varchar(50), email varchar(100) primary key not null, weight integer, feet integer, inches integer,password varchar(100));
+
+
+//Set password
+grant all on groupApplication.users to dbuser@localhost identified by "goodbyeWorld";
+
+//—————————————————————————usersWorkout
+use groupApplication;
+
+//Start users table
+create table usersWorkout(email varchar(100) primary key not null, day integer,workoutList longblob);
+
+
+//Set password
+grant all on groupApplication.usersWorkout to dbuser@localhost identified by "goodbyeWorld";
