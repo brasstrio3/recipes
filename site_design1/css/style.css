@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*Global Styling*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 150px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*Banner Styling*/
+#banner {
+    background: url(../imgs/banner_photo.jpg) no-repeat center center;
+    height: 500px;
+    position: relative;
+    top: 90px;
+    background-size:cover; 
+}
+
+#banner p {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+}
+
+/*Main Styling*/
+main {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 0 10rem;
+}
+
+.section-title {
+    text-decoration: underline;
+}
+
+.border img {
+    width: 100%;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
