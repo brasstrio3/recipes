@@ -100,7 +100,7 @@ header a:hover {
 
 /*Banner Styling*/
 #banner {
-    background: url(../imgs/cheesecake.jpg) no-repeat center center;
+    background: url("../imgs/cheesecake.jpg") no-repeat center center;
     height: 500px;
     position: relative;
     top: 0;
