@@ -19,14 +19,10 @@
     </style>
 
     <div id="banner">
-<!--
-        <p>
-            Some slogan or something can go here
-        </p>
--->
+
     </div>
 
-    <main id="recipes">
+    <main>
         <h2 class="section-title">Section Title</h2>
 
         <div class="container-fluid">

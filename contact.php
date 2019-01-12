@@ -9,27 +9,24 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/contactStyling.css" rel="stylesheet">
     <link href="css/flexboxgrid.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <style>
-        .contactform {
-            border: 1px solid purple;
-            margin-top: 50px;
-            border-radius: 15px;
-        }
-
-    </style>
 </head>
 
 <body>
-  
+    <?php include "include_files/header.php"; ?>
+    <style>
+        <?php include "css/headerStyling.css"; ?>
+    </style>
+    
+    <div id="header-photo">
+       
+    </div>
+    
+    <h2 class="contact-us-label">Contact Us</h2>
+    <hr>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-offset-1 col-sm-10 contactform">
-                <h1>Contact Us</h1>
-
-                <?php 
+    <div class="row">
+        <div class="col-lg-4 contactform">
+            <?php 
                 //gets user input
                 $fname = $_POST["fname"];
                 $lname = $_POST["lname"];
@@ -37,11 +34,11 @@
                 $comment = $_POST["comment"];
                 
                 //error messages
-                $missingFirstName = '<p><strong>Please enter your first name!</strong></p>';  
-                $missingLastName = '<p><strong>Please enter your last name!</strong></p>';
-                $missingEmail = '<p><strong>Please enter your email address!</strong></p>';
-                $invalidEmail = '<p><strong>Please enter a valid email address!</strong></p>';
-                $missingComment = '<p><strong>Please enter a comment!</strong></p>';
+                $missingFirstName = '<p class="error"><strong>*Please enter your first name!</strong></p>';  
+                $missingLastName = '<p class="error"><strong>*Please enter your last name!</strong></p>';
+                $missingEmail = '<p class="error"><strong>*Please enter your email address!</strong></p>';
+                $invalidEmail = '<p class="error"><strong>*Please enter a valid email address!</strong></p>';
+                $missingComment = '<p class="error"><strong>*Please enter a comment!</strong></p>';
                 
                 //if the user has submitted the form
                 if($_POST["submit"]) {
@@ -107,43 +104,42 @@
                 }
                 ?>
 
-                <form method="post" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                    <div class="form-group">
-                        <label for="fname">First Name: </label>
-                        <input type="text" name="fname" id="fname" placeholder="First Name" class="form-control" value="<?php echo $_POST["fname"];?>">
-                    </div>
+            <form method="post" action="<?php htmlspecialchars($_SERVER[" PHP_SELF"]); ?>">
+                <label for="fname">First Name: </label>
+                <input type="text" name="fname" id="fname" placeholder="First Name" class="spacing" value="<?php echo $_POST["fname"];?>">
 
-                    <div class="form-group">
-                        <label for="lname">Last Name: </label>
-                        <input type="text" name="lname" id="lname" placeholder="Last  Name" class="form-control" value="<?php echo $_POST["lname"];?>">
-                    </div>
+                <br />
 
-                    <div class="form-group">
-                        <label for="email">Email: </label>
-                        <input type="email" name="email" id="email" placeholder="Email" class="form-control" value="<?php echo $_POST["email"];?>">
-                    </div>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" class="spacing" value="<?php echo $_POST["lname"];?>">
 
-                    <div class="form-group">
-                        <label for="comment">Message (optional): </label>
-                        <textarea name="comment" id="comment" rows="5" class="form-control">
+                <br />
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Email" class="spacing" value="<?php echo $_POST["email"];?>">
+
+                <br />
+
+                <label for="comment">Message (optional): </label>
+                <textarea name="comment" id="comment" rows="7" cols="35" class="spacing">
 
                         <?php echo $_POST["comment"];?>
                         </textarea>
-                    </div>
 
-                    <input type="submit" name="submit" class="btn btn-success btn-lg" value="Send Message">
-                </form>
-            </div>
+                <br />
+                <div id="btn-div">
+                    <input type="submit" name="submit" id="submitBtn">
+                </div>
+            </form>
         </div>
     </div>
     
-    <br  />
-    <br  />
-    <a href="index.php" style="color: black; font-size: 25px;">Back to Homepage</a>
+    <p>***Click <a href="mailto:sitecreator2018@gmail.com" target="_top">here</a> to contact.</p>
     
     <?php include "include_files/footer.php"; ?>
     <style>
-        <?php include "css/footerStyling.css"; ?>
+        <?php include "css/footerStyling.css";
+        ?>
     </style>
 </body>
 

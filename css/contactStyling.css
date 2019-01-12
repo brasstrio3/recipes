@@ -1,2 +1,47 @@
+#header-photo {
+    background: url("../imgs/drinks.jpg") no-repeat center center;
+    height: 89px;
+    position: relative;
+    top: 0;
+    background-size: cover;
+    margin-bottom: 50px;
+}
 
+.contact-us-label {
+    text-align: center;
+    font-size: 30px;
+}
 
+.error {
+    color: red;
+}
+
+hr {
+    margin: 0 46rem 0px 46rem;
+    background: black;
+    padding-top: 1px;
+}
+
+.contactform {
+    border: 1px solid purple;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding-top: 30px;
+}
+
+label {
+    float: left;
+    width: 30%;
+}
+
+.spacing {
+    margin-bottom: 10px;
+}
+
+#btn-div {
+    text-align: center;
+}
+
+#submitBtn {
+    margin: 10px auto;
+}

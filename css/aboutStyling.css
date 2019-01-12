@@ -1,0 +1,56 @@
+#header-photo {
+    background: url("../imgs/drinks.jpg") no-repeat center center;
+    height: 89px;
+    position: relative;
+    top: 0;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.about-us-label {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    margin: 0 46rem 30px 46rem;
+    background: black;
+    padding-top: 1px;
+}
+
+#bio {
+    text-align: justify;
+    padding-bottom: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.left-photo img{
+    width: 100%;
+}
+
+.row-left-bg {
+    margin: 0 0rem 0 5rem;
+}
+
+.row-left-bg:first-of-type {
+    padding-top: 15px;
+}
+
+.row-right-bg {
+    margin: 0 5rem 0 0rem;
+}
+
+.col-lg-8 {
+    padding-top: 80px;
+    text-align: justify;
+}
+
+.words-left-align {
+    padding-left: 20rem;   
+}
+
+.words-right-align {
+    padding-right: 20rem;   
+}
+
