@@ -8,7 +8,6 @@
     <title>Document</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/flexboxgrid.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,15 +15,17 @@
     <style>
         <?php include 'css/headerStyling.css';
         ?>
+
     </style>
 
     <div id="banner">
 
     </div>
 
-    <main>
-        <h2 class="section-title">Section Title</h2>
+    <h2 class="section-title">Section Title</h2>
+    <hr>
 
+    <section class="recipe-list">
         <div class="container-fluid">
             <div class="row bottom">
                 <div class="col-lg-3">
@@ -59,9 +60,14 @@
                     </div>
                 </div>
             </div>
-            
-            <h2 class="section-title">Section Title</h2>
-            
+        </div>
+    </section>
+
+    <h2 class="section-title">Section Title</h2>
+    <hr>
+
+    <section class="recipe-list">
+        <div class="container-fluid">
             <div class="row bottom">
                 <div class="col-lg-4">
                     <div class="border">
@@ -87,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row bottom">
                 <div class="col-lg-3">
                     <div class="border">
@@ -122,14 +128,14 @@
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
     <?php include "include_files/footer.php"; ?>
     <style>
         <?php include "css/footerStyling.css";
         ?>
+
     </style>
-    <script src="js/myScript.js"></script>
 </body>
 
 </html>

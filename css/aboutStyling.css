@@ -7,17 +7,6 @@
     margin-bottom: 50px;
 }
 
-.about-us-label {
-    text-align: center;
-    font-size: 30px;
-}
-
-hr {
-    margin: 0 46rem 30px 46rem;
-    background: black;
-    padding-top: 1px;
-}
-
 #bio {
     text-align: justify;
     padding-bottom: 30px;
@@ -30,7 +19,7 @@ hr {
 }
 
 .row-left-bg {
-    margin: 0 0rem 0 5rem;
+    margin: 0 0rem 2rem 5rem;
 }
 
 .row-left-bg:first-of-type {
@@ -38,7 +27,7 @@ hr {
 }
 
 .row-right-bg {
-    margin: 0 5rem 0 0rem;
+    margin: 0 5rem 2rem 0rem;
 }
 
 .col-lg-8 {

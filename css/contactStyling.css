@@ -7,25 +7,14 @@
     margin-bottom: 50px;
 }
 
-.contact-us-label {
-    text-align: center;
-    font-size: 30px;
-}
-
 .error {
     color: red;
-}
-
-hr {
-    margin: 0 46rem 0px 46rem;
-    background: black;
-    padding-top: 1px;
 }
 
 .contactform {
     border: 1px solid purple;
     border-radius: 15px;
-    margin: 30px auto;
+    margin: 0 auto;
     padding-top: 30px;
 }
 

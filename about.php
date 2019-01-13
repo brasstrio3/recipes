@@ -9,62 +9,79 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/flexboxgrid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/aboutStyling.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include "include_files/header.php"; ?>
     <style>
-        <?php include 'css/headerStyling.css'; ?>
+        <?php include 'css/headerStyling.css';
+        ?>
+
     </style>
 
     <div id="header-photo">
-       
+
     </div>
-    
-    <h2 class="about-us-label">About Us</h2>
+
+    <h2 class="section-title">About Us</h2>
     <hr>
-    
+
     <p id="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum an.</p>
-    
+
     <div id="display-photo">
         <div class="container-fluid">
-            <div class="row row-left-bg">
-                <div class="col-lg-4 left-photo">
-                    <img src="imgs/drinks.jpg">
-                </div>
-                
-                <div class="col-lg-8 words-right-align">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
-                </div>
-            </div>
-            
-            <div class="row row-right-bg">
-                <div class="col-lg-8 words-left-align">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
-                </div>
-                
-                <div class="col-lg-4 left-photo">
-                    <img src="imgs/drinks.jpg">
+            <div data-aos="fade-up-right">
+                <div class="row row-left-bg">
+                    <div class="col-lg-4 left-photo">
+                        <img src="imgs/drinks.jpg">
+                    </div>
+
+                    <div class="col-lg-8 words-right-align">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="row row-left-bg"> 
-                <div class="col-lg-4 left-photo">
-                    <img src="imgs/drinks.jpg">
-                </div>
-                
-                <div class="col-lg-8 words-right-align">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
+
+            <div data-aos="fade-up-left">
+                <div class="row row-right-bg">
+                    <div class="col-lg-8 words-left-align">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
+                    </div>
+
+                    <div class="col-lg-4 left-photo">
+                        <img src="imgs/drinks.jpg">
+                    </div>
                 </div>
             </div>
-            
+
+            <div data-aos="fade-up-right">
+                <div class="row row-left-bg">
+                    <div class="col-lg-4 left-photo">
+                        <img src="imgs/drinks.jpg">
+                    </div>
+
+                    <div class="col-lg-8 words-right-align">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh leo, ullamcorper nec eros eget, accumsan feugiat quam. Duis vitae facilisis ipsum, sed consectetur ante. Mauris felis massa, consectetur at tortor vel, laoreet maximus eros. Nulla rutrum egestas diam. Aenean ut aliquam leo, id aliquam nisl. Cras a interdum magna. Cras a interdum a.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    
+
     <?php include "include_files/footer.php"; ?>
     <style>
-        <?php include "css/footerStyling.css"; ?>
+        <?php include "css/footerStyling.css";
+        ?>
+
     </style>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
 
 </body>
 

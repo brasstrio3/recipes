@@ -21,7 +21,7 @@
        
     </div>
     
-    <h2 class="contact-us-label">Contact Us</h2>
+    <h2 class="section-title">Contact Us</h2>
     <hr>
 
     <div class="row">
