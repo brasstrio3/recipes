@@ -33,6 +33,8 @@
                         <img src="imgs/banner_photo.jpg">
 
                         <p>This is where the description goes</p>
+                        
+                        <a href="cookies.html" target="_blank" class="view-recipe-button">View</a>
                     </div>
                 </div>
 
@@ -41,6 +43,8 @@
                         <img src="imgs/banner_photo.jpg">
 
                         <p>This is where the description goes</p>
+                        
+                         <a href="#" class="view-recipe-button">View</a>
                     </div>
                 </div>
 
@@ -49,6 +53,8 @@
                         <img src="imgs/banner_photo.jpg">
 
                         <p>This is where the description goes</p>
+                        
+                         <a href="#" class="view-recipe-button">View</a>
                     </div>
                 </div>
 
@@ -57,6 +63,8 @@
                         <img src="imgs/banner_photo.jpg">
 
                         <p>This is where the description goes</p>
+                        
+                         <a href="#" class="view-recipe-button">View</a>
                     </div>
                 </div>
             </div>

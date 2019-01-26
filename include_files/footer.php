@@ -1,5 +1,8 @@
 <footer>
     <div class="container">
-        <p>&copy; Copyright Rodrigo &amp; Marcus 2019</p>
+       <?php
+            $currentYear = date("Y");
+            echo "<p>Copyright &copy; Rodrigo &amp; Marcus $currentYear</p>";
+        ?>
     </div>
 </footer>

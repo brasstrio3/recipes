@@ -124,7 +124,7 @@
                 <textarea name="comment" id="comment" rows="7" cols="35" class="spacing">
 
                         <?php echo $_POST["comment"];?>
-                        </textarea>
+                </textarea>
 
                 <br />
                 <div id="btn-div">

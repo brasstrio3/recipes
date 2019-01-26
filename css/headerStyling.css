@@ -19,7 +19,7 @@ header {
     width: 100%;
     position: absolute;
     z-index: 10;
-    max-height: 80px;
+    height: 49px;
     font-family: 'Montserrat', sans-serif;
 }
 

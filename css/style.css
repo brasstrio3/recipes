@@ -22,82 +22,6 @@ body {
     overflow: hidden;
 }
 
-/*Header Styling*/
-header {
-    background: rgba(184, 184, 184, .3);
-    padding: 20px 0px;
-    font-size: 18px;
-    color: #fff;
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    max-height: 80px;
-    top: 0;
-    left: 0;
-}
-
-header h1 {
-    margin: 0 30px 0 0;
-    float: left;
-    padding-top: 8px;
-}
-
-/*Header Links*/
-header nav {
-    float: right;
-
-}
-
-header li {
-    display: inline;
-    float: left;
-    padding: 0 20px;
-}
-
-header a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: all .3s;
-}
-
-header a:hover {
-    color: black;
-    font-weight: bold;
-    border-bottom: 2px solid black;
-}
-
-/*Header search*/
-.header-search {
-    float: right;
-    padding-top: 15px;
-    padding-left: 25px;
-}
-
-#header-search-box {
-    border-radius: 8px;
-    padding: 5px;
-    border: 2px solid black;
-    width: 200px;
-}
-
-#header-search-submit {
-    border-radius: 8px;
-    border: 1px solid black;
-    padding: 5px 12px;
-    box-shadow: 2px 2px 2px black;
-    position: relative;
-    bottom: 1px;
-    background: #5092cc;
-    font-weight: bold;
-    color: white;
-}
-
-#header-search-submit:active {
-    top: 1px;
-    box-shadow: none;
-}
-
-
 /*Banner Styling*/
 #banner {
     background: url("../imgs/cheesecake.jpg") no-repeat center center;
@@ -141,5 +65,26 @@ hr {
 }
 
 .bottom {
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.view-recipe-button {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px 12px;
+    box-shadow: 2px 2px 2px black;
+    position: relative;
+    bottom: 1px;
+    background: #5092cc;
+    font-weight: bold;
+    color: white;
+}
+
+.view-recipe-button:active {
+    top: 1px;
+    box-shadow: none;
 }
